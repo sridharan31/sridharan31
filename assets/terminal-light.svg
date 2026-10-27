@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="302" viewBox="0 0 860 302" role="img" aria-labelledby="t d">
+<title id="t">Terminal introduction</title>
+<desc id="d">$ whoami | sridharan · senior full-stack engineer · abu dhabi, uae | $ cat experience.json | { &quot;years&quot;: &quot;14+&quot;, &quot;domains&quot;: [&quot;banking &amp; payments&quot;, &quot;ports &amp; logistics&quot;] } | $ ls ./stack | angular/  dotnet/  node/  kubernetes/  keycloak/  claude-api/  mcp/  rag/ | $ ./now --focus | → shipping LLM agents grounded in real operational data</desc>
+<style>
+
+text { font-family: 'JetBrains Mono', 'Cascadia Code', Consolas, Menlo, monospace; font-size: 14px; white-space: pre; }
+.cur { animation: blink 1s steps(1) infinite; }
+@keyframes blink { 50% { opacity: 0; } }
+.l0 { transform: scaleX(0); transform-box: fill-box; transform-origin: right; animation: k0 18s infinite; }
+@keyframes k0 { 0%, 3.33% { transform: scaleX(1); } 5.67% { transform: scaleX(0); animation-timing-function: steps(1); } 94% { transform: scaleX(0); } 97%, 100% { transform: scaleX(1); } }
+.l0 { animation-timing-function: steps(6); }
+.l1 { transform: scaleX(0); transform-box: fill-box; transform-origin: right; animation: k1 18s infinite; }
+@keyframes k1 { 0%, 7.61% { transform: scaleX(1); } 8.44% { transform: scaleX(0); animation-timing-function: steps(1); } 94% { transform: scaleX(0); } 97%, 100% { transform: scaleX(1); } }
+.l1 { animation-timing-function: ease-out; }
+.l2 { transform: scaleX(0); transform-box: fill-box; transform-origin: right; animation: k2 18s infinite; }
+@keyframes k2 { 0%, 11.78% { transform: scaleX(1); } 19.17% { transform: scaleX(0); animation-timing-function: steps(1); } 94% { transform: scaleX(0); } 97%, 100% { transform: scaleX(1); } }
+.l2 { animation-timing-function: steps(19); }
+.l3 { transform: scaleX(0); transform-box: fill-box; transform-origin: right; animation: k3 18s infinite; }
+@keyframes k3 { 0%, 21.11% { transform: scaleX(1); } 21.94% { transform: scaleX(0); animation-timing-function: steps(1); } 94% { transform: scaleX(0); } 97%, 100% { transform: scaleX(1); } }
+.l3 { animation-timing-function: ease-out; }
+.l4 { transform: scaleX(0); transform-box: fill-box; transform-origin: right; animation: k4 18s infinite; }
+@keyframes k4 { 0%, 25.28% { transform: scaleX(1); } 29.17% { transform: scaleX(0); animation-timing-function: steps(1); } 94% { transform: scaleX(0); } 97%, 100% { transform: scaleX(1); } }
+.l4 { animation-timing-function: steps(10); }
+.l5 { transform: scaleX(0); transform-box: fill-box; transform-origin: right; animation: k5 18s infinite; }
+@keyframes k5 { 0%, 31.11% { transform: scaleX(1); } 31.94% { transform: scaleX(0); animation-timing-function: steps(1); } 94% { transform: scaleX(0); } 97%, 100% { transform: scaleX(1); } }
+.l5 { animation-timing-function: ease-out; }
+.l6 { transform: scaleX(0); transform-box: fill-box; transform-origin: right; animation: k6 18s infinite; }
+@keyframes k6 { 0%, 35.28% { transform: scaleX(1); } 40.33% { transform: scaleX(0); animation-timing-function: steps(1); } 94% { transform: scaleX(0); } 97%, 100% { transform: scaleX(1); } }
+.l6 { animation-timing-function: steps(13); }
+.l7 { transform: scaleX(0); transform-box: fill-box; transform-origin: right; animation: k7 18s infinite; }
+@keyframes k7 { 0%, 42.28% { transform: scaleX(1); } 43.11% { transform: scaleX(0); animation-timing-function: steps(1); } 94% { transform: scaleX(0); } 97%, 100% { transform: scaleX(1); } }
+.l7 { animation-timing-function: ease-out; }
+@media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+</style>
+<rect x=".5" y=".5" width="859" height="301" rx="14" fill="#FFFFFF" stroke="#D9E2EC"/>
+<path d="M.5 40V14.5a14 14 0 0 1 14-14h831a14 14 0 0 1 14 14V40z" fill="#EEF4FB"/>
+<circle cx="24" cy="20" r="6" fill="#FF5F57"/><circle cx="44" cy="20" r="6" fill="#FEBC2E"/><circle cx="64" cy="20" r="6" fill="#28C840"/>
+<text x="430" y="25" text-anchor="middle" fill="#94A3B8" font-size="12">sridharan@profile: ~</text>
+<text x="28" y="72" fill="#0F172A"><tspan fill="#0891B2">❯</tspan> whoami</text>
+<rect class="l0" x="24" y="55" width="89" height="24" fill="#FFFFFF"/>
+<text x="28" y="96" fill="#475569">sridharan · senior full-stack engineer · abu dhabi, uae</text>
+<rect class="l1" x="24" y="79" width="497" height="24" fill="#FFFFFF"/>
+<text x="28" y="120" fill="#0F172A"><tspan fill="#0891B2">❯</tspan> cat experience.json</text>
+<rect class="l2" x="24" y="103" width="202" height="24" fill="#FFFFFF"/>
+<text x="28" y="144" fill="#475569">{ &quot;years&quot;: &quot;14+&quot;, &quot;domains&quot;: [&quot;banking &amp; payments&quot;, &quot;ports &amp; logistics&quot;] }</text>
+<rect class="l3" x="24" y="127" width="662" height="24" fill="#FFFFFF"/>
+<text x="28" y="168" fill="#0F172A"><tspan fill="#0891B2">❯</tspan> ls ./stack</text>
+<rect class="l4" x="24" y="151" width="124" height="24" fill="#FFFFFF"/>
+<text x="28" y="192" fill="#475569">angular/  dotnet/  node/  kubernetes/  keycloak/  claude-api/  mcp/  rag/</text>
+<rect class="l5" x="24" y="175" width="654" height="24" fill="#FFFFFF"/>
+<text x="28" y="216" fill="#0F172A"><tspan fill="#0891B2">❯</tspan> ./now --focus</text>
+<rect class="l6" x="24" y="199" width="150" height="24" fill="#FFFFFF"/>
+<text x="28" y="240" fill="#059669">→ shipping LLM agents grounded in real operational data</text>
+<rect class="l7" x="24" y="223" width="497" height="24" fill="#FFFFFF"/>
+<text x="28" y="264" fill="#0891B2">❯ <tspan class="cur" fill="#0F172A">█</tspan></text>
+</svg>

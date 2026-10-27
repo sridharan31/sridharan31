@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="250" viewBox="0 0 1200 250" role="img" aria-labelledby="t d">
+<title id="t">Career timeline</title>
+<desc id="d">FOUNDATIONS: Enterprise web &amp; mobile (Angular · Ionic · .NET); FSS · 5 YEARS: Payments at national scale (UPI · BHIM · NPCI eNACH · 10+ banks); AD PORTS GROUP: Multi-tenant platforms (Micro-frontends · CQRS · Keycloak · K8s); NOW: AI engineering (LLM agents · RAG · MCP · fine-tuning)</desc>
+<style>
+
+text { font-family: 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; }
+.track { stroke-dasharray: 880; animation: draw 2.4s cubic-bezier(.6,0,.2,1) both .2s; }
+@keyframes draw { from { stroke-dashoffset: 880; } }
+.st { animation: pop .6s cubic-bezier(.2,1.4,.4,1) both; transform-box: fill-box; transform-origin: center; }
+@keyframes pop { from { opacity: 0; transform: scale(.4); } }
+.cap { animation: up .7s ease both; }
+@keyframes up { from { opacity: 0; transform: translateY(10px); } }
+.halo { transform-box: fill-box; transform-origin: center; animation: halo 2.4s ease-out infinite 3s; }
+@keyframes halo { from { opacity: .7; transform: scale(1); } to { opacity: 0; transform: scale(2.4); } }
+.run { offset-path: path('M160 110H1040'); animation: run 6s linear infinite 3s; opacity: 0; }
+@keyframes run { 0% { offset-distance: 0%; opacity: 0; } 10%, 90% { opacity: 1; } 100% { offset-distance: 100%; opacity: 0; } }
+@media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+</style>
+<defs><linearGradient id="tr" x1="0" x2="1"><stop offset="0" stop-color="#3B82F6"/><stop offset=".5" stop-color="#22D3EE"/><stop offset="1" stop-color="#34D399"/></linearGradient></defs>
+<rect x=".5" y=".5" width="1199" height="249" rx="16" fill="#0F1A2E" stroke="#1E2A44"/>
+<line x1="160" y1="110" x2="1040" y2="110" stroke="#1E2A44" stroke-width="4" stroke-linecap="round"/>
+<line class="track" x1="160" y1="110" x2="1040" y2="110" stroke="url(#tr)" stroke-width="4" stroke-linecap="round"/>
+<circle class="run" r="4" fill="#F1F5F9"/>
+
+<g class="st" style="animation-delay:0.30s"><circle cx="160" cy="110" r="11" fill="#0F1A2E" stroke="#3B82F6" stroke-width="3"/><circle cx="160" cy="110" r="4" fill="#3B82F6"/></g>
+<g class="cap" style="animation-delay:0.45s" text-anchor="middle">
+  <text x="160" y="76" font-size="12" font-weight="700" letter-spacing="1.5" fill="#3B82F6">FOUNDATIONS</text>
+  <text x="160" y="156" font-size="17" font-weight="600" fill="#F1F5F9">Enterprise web &amp; mobile</text>
+  <text x="160" y="180" font-size="13" fill="#94A3B8">Angular · Ionic · .NET</text>
+</g>
+
+<g class="st" style="animation-delay:1.03s"><circle cx="453" cy="110" r="11" fill="#0F1A2E" stroke="#22D3EE" stroke-width="3"/><circle cx="453" cy="110" r="4" fill="#22D3EE"/></g>
+<g class="cap" style="animation-delay:1.18s" text-anchor="middle">
+  <text x="453" y="76" font-size="12" font-weight="700" letter-spacing="1.5" fill="#22D3EE">FSS · 5 YEARS</text>
+  <text x="453" y="156" font-size="17" font-weight="600" fill="#F1F5F9">Payments at national scale</text>
+  <text x="453" y="180" font-size="13" fill="#94A3B8">UPI · BHIM · NPCI eNACH · 10+ banks</text>
+</g>
+
+<g class="st" style="animation-delay:1.77s"><circle cx="747" cy="110" r="11" fill="#0F1A2E" stroke="#A78BFA" stroke-width="3"/><circle cx="747" cy="110" r="4" fill="#A78BFA"/></g>
+<g class="cap" style="animation-delay:1.92s" text-anchor="middle">
+  <text x="747" y="76" font-size="12" font-weight="700" letter-spacing="1.5" fill="#A78BFA">AD PORTS GROUP</text>
+  <text x="747" y="156" font-size="17" font-weight="600" fill="#F1F5F9">Multi-tenant platforms</text>
+  <text x="747" y="180" font-size="13" fill="#94A3B8">Micro-frontends · CQRS · Keycloak · K8s</text>
+</g>
+<circle class="halo" cx="1040" cy="110" r="11" fill="none" stroke="#34D399" stroke-width="2"/>
+<g class="st" style="animation-delay:2.50s"><circle cx="1040" cy="110" r="11" fill="#0F1A2E" stroke="#34D399" stroke-width="3"/><circle cx="1040" cy="110" r="4" fill="#34D399"/></g>
+<g class="cap" style="animation-delay:2.65s" text-anchor="middle">
+  <text x="1040" y="76" font-size="12" font-weight="700" letter-spacing="1.5" fill="#34D399">NOW</text>
+  <text x="1040" y="156" font-size="17" font-weight="600" fill="#F1F5F9">AI engineering</text>
+  <text x="1040" y="180" font-size="13" fill="#94A3B8">LLM agents · RAG · MCP · fine-tuning</text>
+</g>
+</svg>
