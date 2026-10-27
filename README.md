@@ -9,7 +9,7 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/banner-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="./assets/banner-light.svg">
-  <img alt="Sridharan Periyannan — Senior Full-Stack Engineer building enterprise platforms and LLM agents" src="./assets/banner-dark.svg" width="100%">
+  <img alt="Sridharan Periyannan — Senior Full-Stack Developer: Angular, .NET, microservices and AI/LLM engineering" src="./assets/banner-dark.svg" width="100%">
 </picture>
 
 <p align="center">
@@ -24,6 +24,7 @@
   <a href="#journey">Journey</a> ·
   <a href="#tech-stack">Tech Stack</a> ·
   <a href="#projects">Projects</a> ·
+  <a href="#recognition">Recognition</a> ·
   <a href="#ai-engineering">AI Engineering</a> ·
   <a href="#activity">Activity</a> ·
   <a href="#contact">Contact</a>
@@ -35,14 +36,14 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/terminal-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="./assets/terminal-light.svg">
-  <img alt="Terminal: whoami — senior full-stack engineer in Abu Dhabi; 14+ years across banking and ports; stack Angular, .NET, Node, Kubernetes, Keycloak, Claude API, MCP, RAG; now shipping LLM agents grounded in operational data" src="./assets/terminal-dark.svg" width="100%">
+  <img alt="Terminal: whoami — senior full-stack developer at AD Ports Group, Abu Dhabi; 14+ years, 10+ banks, banking/payments and maritime/logistics; stack Angular, React, .NET, Node, RabbitMQ, Keycloak, Kubernetes, Claude API, MCP, Qdrant; now building multi-agent LLM assistants grounded in port operations data" src="./assets/terminal-dark.svg" width="100%">
 </picture>
 
-I'm a Senior Full-Stack Developer at **AD Ports Group**, where I build multi-tenant, microservice-based platforms used across the UAE, Jordan, and Egypt. Before that, I spent five years at **FSS** delivering UPI, BHIM, and NPCI eNACH payment systems for 10+ banks.
+I'm a Senior Full-Stack Developer at **AD Ports Group** (since 2021), where I architected a modular, multi-tenant **Port Community System** now live in the UAE, Jordan and Egypt, and contribute to the **Angola Logistics Single Window**. Before that, I spent five years at **FSS** delivering UPI, BHIM and NPCI eNACH payment systems for 10+ banks, including State Bank of India, Punjab National Bank and Mashreq Bank.
 
-My work sits where frontend architecture meets distributed backends: Angular micro-frontends, ASP.NET Core services, event-driven integration, and identity security that holds up in regulated environments.
+My work sits where frontend architecture meets distributed backends: Angular micro-frontends, ASP.NET Core microservices, event-driven integration (RabbitMQ, gRPC, Camunda), and Keycloak identity security that holds up in regulated environments. I started out in UI/UX and graphic design, and that still shapes how I build interfaces.
 
-Today I'm applying that same discipline to AI engineering — building agentic assistants with the Claude API and MCP, RAG pipelines on vector search, and learning LLM fine-tuning hands-on.
+Today I'm applying that same discipline to AI/LLM engineering. I'm building a Claude API-powered executive assistant with MCP tools, RAG and Qdrant vector search, and learning LLM fine-tuning hands-on.
 
 <!-- ============ JOURNEY ============ -->
 <h2 id="journey">🧭 Journey</h2>
@@ -50,7 +51,7 @@ Today I'm applying that same discipline to AI engineering — building agentic a
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/timeline-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="./assets/timeline-light.svg">
-  <img alt="Career timeline: Foundations in enterprise web and mobile; FSS, 5 years of national-scale payments for 10+ banks; AD Ports Group multi-tenant platforms; now AI engineering with LLM agents, RAG and MCP" src="./assets/timeline-dark.svg" width="100%">
+  <img alt="Career timeline: Binarch 2012–2016, design and e-commerce; FSS 2016–2021, payments for 10+ banks; AD Ports Group 2021 to present, multi-country platforms; now AI/LLM engineering" src="./assets/timeline-dark.svg" width="100%">
 </picture>
 
 <p align="right"><a href="#top">↑ back to top</a></p>
@@ -71,14 +72,18 @@ Today I'm applying that same discipline to AI engineering — building agentic a
 
 | Area | Technologies |
 |---|---|
-| **Frontend** | Angular (4–22), React, TypeScript, RxJS, NgRx, Angular Material, PrimeNG, Tailwind CSS, SCSS, Transloco (i18n) |
+| **Frontend** | Angular (4–22), React, TypeScript, JavaScript (ES6+), RxJS, NgRx, Angular Material, PrimeNG, Tailwind CSS, SCSS, Transloco (i18n) |
 | **Mobile** | Ionic, Capacitor, Apache Cordova |
-| **Backend** | .NET / ASP.NET Core, C#, Clean Architecture, CQRS (MediatR), Node.js, REST, gRPC |
-| **Data &amp; Messaging** | SQL Server, PostgreSQL, MongoDB, RabbitMQ / MassTransit, Azure Service Bus |
-| **Architecture &amp; Security** | Microservices, Micro-frontends (Native Federation), Camunda BPM, Keycloak (OAuth2 / OIDC), RBAC, AES / RSA |
-| **DevOps &amp; Cloud** | Docker, Kubernetes, Helm, ArgoCD (GitOps), Azure DevOps, Azure AKS, VMware Tanzu, Grafana / Prometheus |
-| **AI &amp; LLM** | Claude API, MCP, RAG, Qdrant, LangChain, LangGraph, LiteLLM, Vercel AI SDK, Prompt Engineering, LoRA / QLoRA *(learning)* |
-| **Design &amp; Tools** | Git, GitHub Actions, Figma, Adobe XD, Photoshop, Illustrator |
+| **Backend** | .NET (incl. .NET 10) / ASP.NET Core, C#, Clean Architecture, CQRS (MediatR), Node.js, REST |
+| **Architecture &amp; Integration** | Microservices, Micro-frontends (Native Federation), gRPC, RabbitMQ / MassTransit, Azure Service Bus, Camunda BPM |
+| **Databases** | SQL Server, PostgreSQL, MongoDB |
+| **Security &amp; Identity** | Keycloak (OAuth2 / OIDC, UMA), RBAC, AES / RSA encryption, Frida-based mobile hardening |
+| **DevOps &amp; Cloud** | Docker, Kubernetes, Helm, ArgoCD (GitOps), Azure DevOps, Azure AKS, VMware Tanzu, CI/CD, Grafana / Prometheus / Loki / Tempo |
+| **Agents** | Claude API, MCP, tool use &amp; function calling, coordinator / orchestrator multi-agent pattern, ReAct, agent memory &amp; state, LangGraph, LangChain, CrewAI, AutoGen, LlamaIndex |
+| **RAG &amp; Vector Search** | Embeddings, Qdrant, Pinecone, Weaviate, Chroma, pgvector |
+| **LLMOps &amp; Serving** | OpenAI &amp; Gemini APIs, LiteLLM gateway, Vercel AI SDK, vLLM, TGI, Ollama, LangSmith, Langfuse, Weights &amp; Biases |
+| **Fine-tuning &amp; Evaluation** | SFT, PEFT (LoRA / QLoRA), DPO, Hugging Face Transformers / PEFT / TRL, Unsloth, quantization (GGUF, GPTQ, AWQ) · custom evals, LLM-as-judge, guardrails, prompt-injection defense *(learning)* |
+| **Design &amp; Tools** | Git, GitHub Actions, Figma, Adobe XD, Photoshop, Illustrator, wireframing, user research |
 
 </details>
 
@@ -130,16 +135,32 @@ Today I'm applying that same discipline to AI engineering — building agentic a
     <td width="50%" valign="top">
       <h3>🏗️ Port Community System</h3>
       <sub>Enterprise full-stack · AD Ports Group</sub>
-      <p>Modular, multi-tenant platform covering service management, payments, documents and tenant/user management — deployed in the UAE, Jordan and Egypt.</p>
-      <p><code>Angular</code> <code>ASP.NET Core</code> <code>Keycloak</code> <code>Camunda</code> <code>Kubernetes</code></p>
+      <p>Modular, multi-tenant platform covering service management, payments, documents and tenant/user management. Architected and delivered end to end, and led the country rollouts for Jordan and Egypt: localization, payment integrations, Camunda approvals, UAT and go-live.</p>
+      <p><code>Angular</code> <code>ASP.NET Core</code> <code>SQL Server</code> <code>MongoDB</code> <code>Keycloak</code> <code>Camunda</code> <code>Kubernetes</code></p>
       <sub>Proprietary · <!-- TODO: link a public case study or LinkedIn post if you have one --> case study coming soon</sub>
     </td>
     <td width="50%" valign="top">
       <h3>🤖 Executive Digital Twin</h3>
-      <sub>Multi-agent system · AD Ports Group</sub>
-      <p>LLM "AI Chief of Staff" where domain agents report through a coordinator agent to produce grounded executive briefs, Q&amp;A and what-if scenarios across 10 operational domains.</p>
+      <sub>Multi-agent LLM assistant · AD Ports Group</sub>
+      <p>Unifies 10 operational domains into a single Port Health Score dashboard, with an "AI Chief of Staff" on top: domain agents linked through a coordinator agent produce executive briefs, grounded Q&amp;A and what-if simulations. A server-side proxy keeps API keys off the client.</p>
       <p><code>Claude API</code> <code>MCP</code> <code>RAG</code> <code>Qdrant</code></p>
       <sub>Proprietary · architecture sketch below ↓</sub>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top">
+      <h3>🌍 Angola Logistics Single Window</h3>
+      <sub>JUL Platform · AD Ports Group</sub>
+      <p>A 14-microservice .NET 10 platform. I built Angular 22 Native Federation micro-frontends for customs declarations, CNCA licensing and agent nomination, integrated with ASYCUDA, SINTECE and SICOEX.</p>
+      <p><code>.NET 10</code> <code>Angular 22</code> <code>RabbitMQ / MassTransit</code> <code>ArgoCD</code> <code>Helm</code> <code>Tanzu</code> <code>AKS</code></p>
+      <sub>Proprietary</sub>
+    </td>
+    <td valign="top">
+      <h3>💳 NPCI eNACH &amp; UPI Payments</h3>
+      <sub>Banking platforms · FSS</sub>
+      <p>Led the front-end of the NPCI eNACH clearing system (secure mandate registration and transaction tracking), and built UPI / BHIM web and Ionic mobile apps for 10+ banks, hardened with AES/RSA and Frida-based checks.</p>
+      <p><code>Angular</code> <code>Ionic</code> <code>Cordova</code> <code>AES / RSA</code></p>
+      <sub>Proprietary · 🏆 FSS eNACH Best Performance Award</sub>
     </td>
   </tr>
   <tr>
@@ -168,15 +189,16 @@ Today I'm applying that same discipline to AI engineering — building agentic a
 <!-- GitHub renders Mermaid natively; it follows the viewer's light/dark theme automatically. -->
 ```mermaid
 flowchart LR
-    U([Executive question]) --> C{{Coordinator agent}}
-    C -->|delegates| D1[Ports agent]
-    C -->|delegates| D2[Finance agent]
-    C -->|delegates| D3[Ops agent]
-    C -.->|"…10 domains"| DN[Other domain agents]
-    D1 & D2 & D3 & DN -->|MCP tools| T[(Operational systems)]
-    D1 & D2 & D3 & DN -->|retrieve| V[(Qdrant vector store)]
-    D1 & D2 & D3 & DN -->|findings| C
-    C --> B([Grounded brief · Q&A · what-if scenario])
+    U([Executive]) --> P[Server-side proxy<br/>API keys stay on the server]
+    P --> C{{Coordinator agent}}
+    C -->|delegates| D1[Domain agent 1]
+    C -->|delegates| D2[Domain agent 2]
+    C -.->|"… 10 operational domains"| DN[Domain agent N]
+    D1 & D2 & DN -->|MCP tools| T[(Operational systems)]
+    D1 & D2 & DN -->|RAG retrieval| V[(Qdrant vector store)]
+    D1 & D2 & DN -->|findings| C
+    T --> H[[Port Health Score dashboard]]
+    C --> B([Executive brief · grounded Q&A · what-if simulation])
 ```
 
 </details>
@@ -186,6 +208,39 @@ flowchart LR
   Copy one <td> block above when you publish a tool, e.g. an Angular component library,
   an MCP server, or a CLI. Do not add it until the repository exists.
 -->
+
+<p align="right"><a href="#top">↑ back to top</a></p>
+
+<!-- ============ RECOGNITION ============ -->
+<h2 id="recognition">🏆 Recognition &amp; Learning</h2>
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      🥇 <b>Outstanding Performance Award</b><br>
+      <sub>AD Ports Group</sub><br>
+      Performance optimization of the Abu Dhabi Maritime Bridges operation.
+    </td>
+    <td width="50%" valign="top">
+      🥇 <b>eNACH Best Performance Award</b><br>
+      <sub>FSS</sub><br>
+      Led the front-end of the NPCI eNACH clearing system.
+    </td>
+  </tr>
+</table>
+
+<details>
+<summary><b>Education &amp; certifications</b> (click to expand)</summary>
+<br>
+
+- 🎓 **B.E., Electronics and Communication Engineering**, Anna University, Chennai (2007–2011)
+- 📜 LLM Engineering: Master AI, Large Language Models &amp; Agents (Udemy)
+- 📜 LLM Fine-Tuning (YouTube)
+- 📜 React: The Complete Guide 2023, incl. React Router &amp; Redux (Udemy)
+- 📜 Node.js, Express, MongoDB &amp; More: The Complete Bootcamp (Udemy)
+- 📜 Agile Fundamentals: Scrum &amp; Kanban (Udemy)
+
+</details>
 
 <p align="right"><a href="#top">↑ back to top</a></p>
 

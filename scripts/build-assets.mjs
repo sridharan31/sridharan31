@@ -15,16 +15,16 @@ function banner(c) {
   const W = 1200, H = 320;
   const hub = { x: 960, y: 160 };
   const nodes = [
-    { x: 850, y: 78, label: 'Ports' }, { x: 1075, y: 70, label: 'Finance' },
-    { x: 1125, y: 165, label: 'Risk' }, { x: 1065, y: 255, label: 'Ops' },
-    { x: 860, y: 245, label: 'HR' }, { x: 815, y: 160, label: 'Docs' },
+    { x: 850, y: 78, label: 'Claude API' }, { x: 1075, y: 70, label: 'MCP tools' },
+    { x: 1125, y: 165, label: 'RAG' }, { x: 1065, y: 255, label: 'Qdrant' },
+    { x: 860, y: 245, label: 'Memory' }, { x: 815, y: 160, label: 'Evals' },
   ];
   const edges = nodes.map((n, i) => {
     const len = Math.hypot(hub.x - n.x, hub.y - n.y);
     return `<path class="pk" style="--l:${len.toFixed(0)}px;animation-delay:${(i * 0.45).toFixed(2)}s" d="M${n.x} ${n.y}L${hub.x} ${hub.y}" stroke-dasharray="10 ${len.toFixed(0)}"/>`;
   });
-  const roles = ['Senior Full-Stack Engineer', 'Angular · .NET · Microservices', 'Building LLM Agents · RAG · MCP'];
-  const chips = ['14+ years', '10+ banks · UPI', 'UAE · Jordan · Egypt', 'Claude · MCP · RAG'];
+  const roles = ['Senior Full-Stack Developer', 'Angular · .NET · Microservices', 'AI / LLM Engineering · Agents · RAG · MCP'];
+  const chips = ['14+ years', '10+ banks · UPI / eNACH', 'UAE · Jordan · Egypt · Angola', '2× performance awards'];
   let cx = 64;
   const chipEls = chips.map((t, i) => {
     const w = Math.round(t.length * 7.4 + 30);
@@ -100,7 +100,7 @@ text { font-family: ${SANS}; }
   return svg({
     w: W, h: H,
     title: 'Sridharan Periyannan',
-    desc: 'Senior Full-Stack Engineer building enterprise platforms and LLM agents. Animated diagram of domain agents reporting to a coordinator agent.',
+    desc: 'Senior Full-Stack Developer: Angular, .NET, microservices and AI/LLM engineering. Animated diagram of a coordinator agent connected to Claude API, MCP tools, RAG, Qdrant, memory and evals.',
     css, body,
   });
 }
@@ -110,13 +110,13 @@ function terminal(c) {
   const W = 860, LH = 24, FS = 14, CW = FS * 0.62, T = 18; // cycle seconds
   const script = [
     ['cmd', 'whoami'],
-    ['out', 'sridharan · senior full-stack engineer · abu dhabi, uae'],
+    ['out', 'sridharan · senior full-stack developer @ ad ports group · abu dhabi'],
     ['cmd', 'cat experience.json'],
-    ['out', '{ "years": "14+", "domains": ["banking & payments", "ports & logistics"] }'],
+    ['out', '{ "years": "14+", "banks": "10+", "domains": ["banking & payments", "maritime & logistics"] }'],
     ['cmd', 'ls ./stack'],
-    ['out', 'angular/  dotnet/  node/  kubernetes/  keycloak/  claude-api/  mcp/  rag/'],
+    ['out', 'angular/  react/  dotnet/  node/  rabbitmq/  keycloak/  k8s/  claude-api/  mcp/  qdrant/'],
     ['cmd', './now --focus'],
-    ['ok', '→ shipping LLM agents grounded in real operational data'],
+    ['ok', '→ multi-agent LLM assistants grounded in real port operations data'],
   ];
   const H = 70 + script.length * LH + 40;
   let t = 0.6;
@@ -164,10 +164,10 @@ ${lines.join('\n')}
 function timeline(c) {
   const W = 1200, H = 250, Y = 110;
   const stops = [
-    { x: 160, k: 'FOUNDATIONS', t: 'Enterprise web & mobile', s: 'Angular · Ionic · .NET', col: c.a2 },
-    { x: 453, k: 'FSS · 5 YEARS', t: 'Payments at national scale', s: 'UPI · BHIM · NPCI eNACH · 10+ banks', col: c.a1 },
-    { x: 747, k: 'AD PORTS GROUP', t: 'Multi-tenant platforms', s: 'Micro-frontends · CQRS · Keycloak · K8s', col: c.a3 },
-    { x: 1040, k: 'NOW', t: 'AI engineering', s: 'LLM agents · RAG · MCP · fine-tuning', col: c.ok },
+    { x: 160, k: 'BINARCH · 2012–16', t: 'Design & e-commerce', s: 'UI/UX · 3D visualisation · Magento', col: c.a2 },
+    { x: 453, k: 'FSS · 2016–21', t: 'Payments for 10+ banks', s: 'UPI · BHIM · NPCI eNACH · Ionic', col: c.a1 },
+    { x: 747, k: 'AD PORTS GROUP · 2021–', t: 'Multi-country platforms', s: 'PCS · Angola Single Window · K8s', col: c.a3 },
+    { x: 1040, k: 'NOW', t: 'AI / LLM engineering', s: 'Multi-agent · MCP · RAG · fine-tuning', col: c.ok },
   ];
   const len = stops.at(-1).x - stops[0].x;
   const css = `

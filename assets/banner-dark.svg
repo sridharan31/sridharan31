@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-labelledby="t d">
 <title id="t">Sridharan Periyannan</title>
-<desc id="d">Senior Full-Stack Engineer building enterprise platforms and LLM agents. Animated diagram of domain agents reporting to a coordinator agent.</desc>
+<desc id="d">Senior Full-Stack Developer: Angular, .NET, microservices and AI/LLM engineering. Animated diagram of a coordinator agent connected to Claude API, MCP tools, RAG, Qdrant, memory and evals.</desc>
 <style>
 
 text { font-family: 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; }
@@ -53,33 +53,33 @@ text { font-family: 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; }
   <circle cx="960" cy="160" r="7" fill="#22D3EE"/>
   <circle class="ring" style="animation-delay:2.20s" cx="850" cy="78" r="9"/>
   <circle cx="850" cy="78" r="9" fill="#0B1220" stroke="#3B82F6" stroke-width="2"/>
-  <text class="lbl" x="850" y="62" text-anchor="middle">Ports</text>
+  <text class="lbl" x="850" y="62" text-anchor="middle">Claude API</text>
   <circle class="ring" style="animation-delay:2.65s" cx="1075" cy="70" r="9"/>
   <circle cx="1075" cy="70" r="9" fill="#0B1220" stroke="#3B82F6" stroke-width="2"/>
-  <text class="lbl" x="1075" y="54" text-anchor="middle">Finance</text>
+  <text class="lbl" x="1075" y="54" text-anchor="middle">MCP tools</text>
   <circle class="ring" style="animation-delay:3.10s" cx="1125" cy="165" r="9"/>
   <circle cx="1125" cy="165" r="9" fill="#0B1220" stroke="#3B82F6" stroke-width="2"/>
-  <text class="lbl" x="1125" y="191" text-anchor="middle">Risk</text>
+  <text class="lbl" x="1125" y="191" text-anchor="middle">RAG</text>
   <circle class="ring" style="animation-delay:3.55s" cx="1065" cy="255" r="9"/>
   <circle cx="1065" cy="255" r="9" fill="#0B1220" stroke="#3B82F6" stroke-width="2"/>
-  <text class="lbl" x="1065" y="281" text-anchor="middle">Ops</text>
+  <text class="lbl" x="1065" y="281" text-anchor="middle">Qdrant</text>
   <circle class="ring" style="animation-delay:4.00s" cx="860" cy="245" r="9"/>
   <circle cx="860" cy="245" r="9" fill="#0B1220" stroke="#3B82F6" stroke-width="2"/>
-  <text class="lbl" x="860" y="271" text-anchor="middle">HR</text>
+  <text class="lbl" x="860" y="271" text-anchor="middle">Memory</text>
   <circle class="ring" style="animation-delay:4.45s" cx="815" cy="160" r="9"/>
   <circle cx="815" cy="160" r="9" fill="#0B1220" stroke="#3B82F6" stroke-width="2"/>
-  <text class="lbl" x="815" y="144" text-anchor="middle">Docs</text>
+  <text class="lbl" x="815" y="144" text-anchor="middle">Evals</text>
   <text class="lbl" x="960" y="212" text-anchor="middle" fill="#22D3EE" style="fill:#22D3EE">coordinator agent</text>
   <rect class="bar" x="64" y="64" width="64" height="4" rx="2" fill="url(#ac)"/>
   <text class="up" x="64" y="126" font-size="48" font-weight="700" fill="url(#name)" letter-spacing=".5" style="animation-delay:.1s">Sridharan Periyannan</text>
-  <text class="role r0" x="64" y="172" font-size="22" font-weight="600" fill="#22D3EE">Senior Full-Stack Engineer</text>
+  <text class="role r0" x="64" y="172" font-size="22" font-weight="600" fill="#22D3EE">Senior Full-Stack Developer</text>
   <text class="role r1" x="64" y="172" font-size="22" font-weight="600" fill="#22D3EE">Angular · .NET · Microservices</text>
-  <text class="role r2" x="64" y="172" font-size="22" font-weight="600" fill="#22D3EE">Building LLM Agents · RAG · MCP</text>
+  <text class="role r2" x="64" y="172" font-size="22" font-weight="600" fill="#22D3EE">AI / LLM Engineering · Agents · RAG · MCP</text>
   <text class="up" x="64" y="212" font-size="16" fill="#94A3B8" style="animation-delay:.5s">Scalable enterprise platforms by day, intelligent software systems by design.</text>
   <g class="chip" style="animation-delay:1.20s"><rect x="64" y="244" width="97" height="30" rx="15" fill="#0F1A2E" fill-opacity="0.7" stroke="#1E2A44"/><circle cx="79" cy="259" r="3.5" fill="#22D3EE"/><text x="90" y="264" font-size="13" fill="#94A3B8">14+ years</text></g>
-  <g class="chip" style="animation-delay:1.35s"><rect x="171" y="244" width="141" height="30" rx="15" fill="#0F1A2E" fill-opacity="0.7" stroke="#1E2A44"/><circle cx="186" cy="259" r="3.5" fill="#3B82F6"/><text x="197" y="264" font-size="13" fill="#94A3B8">10+ banks · UPI</text></g>
-  <g class="chip" style="animation-delay:1.50s"><rect x="322" y="244" width="178" height="30" rx="15" fill="#0F1A2E" fill-opacity="0.7" stroke="#1E2A44"/><circle cx="337" cy="259" r="3.5" fill="#A78BFA"/><text x="348" y="264" font-size="13" fill="#94A3B8">UAE · Jordan · Egypt</text></g>
-  <g class="chip" style="animation-delay:1.65s"><rect x="510" y="244" width="163" height="30" rx="15" fill="#0F1A2E" fill-opacity="0.7" stroke="#1E2A44"/><circle cx="525" cy="259" r="3.5" fill="#34D399"/><text x="536" y="264" font-size="13" fill="#94A3B8">Claude · MCP · RAG</text></g>
+  <g class="chip" style="animation-delay:1.35s"><rect x="171" y="244" width="200" height="30" rx="15" fill="#0F1A2E" fill-opacity="0.7" stroke="#1E2A44"/><circle cx="186" cy="259" r="3.5" fill="#3B82F6"/><text x="197" y="264" font-size="13" fill="#94A3B8">10+ banks · UPI / eNACH</text></g>
+  <g class="chip" style="animation-delay:1.50s"><rect x="381" y="244" width="245" height="30" rx="15" fill="#0F1A2E" fill-opacity="0.7" stroke="#1E2A44"/><circle cx="396" cy="259" r="3.5" fill="#A78BFA"/><text x="407" y="264" font-size="13" fill="#94A3B8">UAE · Jordan · Egypt · Angola</text></g>
+  <g class="chip" style="animation-delay:1.65s"><rect x="636" y="244" width="185" height="30" rx="15" fill="#0F1A2E" fill-opacity="0.7" stroke="#1E2A44"/><circle cx="651" cy="259" r="3.5" fill="#34D399"/><text x="662" y="264" font-size="13" fill="#94A3B8">2× performance awards</text></g>
 </g>
 <rect x=".5" y=".5" width="1199" height="319" rx="18" fill="none" stroke="#1E2A44"/>
 </svg>

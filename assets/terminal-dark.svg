@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="860" height="302" viewBox="0 0 860 302" role="img" aria-labelledby="t d">
 <title id="t">Terminal introduction</title>
-<desc id="d">$ whoami | sridharan · senior full-stack engineer · abu dhabi, uae | $ cat experience.json | { &quot;years&quot;: &quot;14+&quot;, &quot;domains&quot;: [&quot;banking &amp; payments&quot;, &quot;ports &amp; logistics&quot;] } | $ ls ./stack | angular/  dotnet/  node/  kubernetes/  keycloak/  claude-api/  mcp/  rag/ | $ ./now --focus | → shipping LLM agents grounded in real operational data</desc>
+<desc id="d">$ whoami | sridharan · senior full-stack developer @ ad ports group · abu dhabi | $ cat experience.json | { &quot;years&quot;: &quot;14+&quot;, &quot;banks&quot;: &quot;10+&quot;, &quot;domains&quot;: [&quot;banking &amp; payments&quot;, &quot;maritime &amp; logistics&quot;] } | $ ls ./stack | angular/  react/  dotnet/  node/  rabbitmq/  keycloak/  k8s/  claude-api/  mcp/  qdrant/ | $ ./now --focus | → multi-agent LLM assistants grounded in real port operations data</desc>
 <style>
 
 text { font-family: 'JetBrains Mono', 'Cascadia Code', Consolas, Menlo, monospace; font-size: 14px; white-space: pre; }
@@ -38,19 +38,19 @@ text { font-family: 'JetBrains Mono', 'Cascadia Code', Consolas, Menlo, monospac
 <text x="430" y="25" text-anchor="middle" fill="#475569" font-size="12">sridharan@profile: ~</text>
 <text x="28" y="72" fill="#F1F5F9"><tspan fill="#22D3EE">❯</tspan> whoami</text>
 <rect class="l0" x="24" y="55" width="89" height="24" fill="#0F1A2E"/>
-<text x="28" y="96" fill="#94A3B8">sridharan · senior full-stack engineer · abu dhabi, uae</text>
-<rect class="l1" x="24" y="79" width="497" height="24" fill="#0F1A2E"/>
+<text x="28" y="96" fill="#94A3B8">sridharan · senior full-stack developer @ ad ports group · abu dhabi</text>
+<rect class="l1" x="24" y="79" width="610" height="24" fill="#0F1A2E"/>
 <text x="28" y="120" fill="#F1F5F9"><tspan fill="#22D3EE">❯</tspan> cat experience.json</text>
 <rect class="l2" x="24" y="103" width="202" height="24" fill="#0F1A2E"/>
-<text x="28" y="144" fill="#94A3B8">{ &quot;years&quot;: &quot;14+&quot;, &quot;domains&quot;: [&quot;banking &amp; payments&quot;, &quot;ports &amp; logistics&quot;] }</text>
-<rect class="l3" x="24" y="127" width="662" height="24" fill="#0F1A2E"/>
+<text x="28" y="144" fill="#94A3B8">{ &quot;years&quot;: &quot;14+&quot;, &quot;banks&quot;: &quot;10+&quot;, &quot;domains&quot;: [&quot;banking &amp; payments&quot;, &quot;maritime &amp; logistics&quot;] }</text>
+<rect class="l3" x="24" y="127" width="827" height="24" fill="#0F1A2E"/>
 <text x="28" y="168" fill="#F1F5F9"><tspan fill="#22D3EE">❯</tspan> ls ./stack</text>
 <rect class="l4" x="24" y="151" width="124" height="24" fill="#0F1A2E"/>
-<text x="28" y="192" fill="#94A3B8">angular/  dotnet/  node/  kubernetes/  keycloak/  claude-api/  mcp/  rag/</text>
-<rect class="l5" x="24" y="175" width="654" height="24" fill="#0F1A2E"/>
+<text x="28" y="192" fill="#94A3B8">angular/  react/  dotnet/  node/  rabbitmq/  keycloak/  k8s/  claude-api/  mcp/  qdrant/</text>
+<rect class="l5" x="24" y="175" width="784" height="24" fill="#0F1A2E"/>
 <text x="28" y="216" fill="#F1F5F9"><tspan fill="#22D3EE">❯</tspan> ./now --focus</text>
 <rect class="l6" x="24" y="199" width="150" height="24" fill="#0F1A2E"/>
-<text x="28" y="240" fill="#34D399">→ shipping LLM agents grounded in real operational data</text>
-<rect class="l7" x="24" y="223" width="497" height="24" fill="#0F1A2E"/>
+<text x="28" y="240" fill="#34D399">→ multi-agent LLM assistants grounded in real port operations data</text>
+<rect class="l7" x="24" y="223" width="593" height="24" fill="#0F1A2E"/>
 <text x="28" y="264" fill="#22D3EE">❯ <tspan class="cur" fill="#F1F5F9">█</tspan></text>
 </svg>
