@@ -1,0 +1,285 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="300" viewBox="0 0 1000 300" role="img" aria-labelledby="t d">
+<title id="t">Contribution skyline</title>
+<desc id="d">Weekly contributions for the last year: 28 total, peak 10 in one week.</desc>
+<style>
+text { font-family: 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; }
+.fade { animation: fade .7s ease both; }
+@keyframes fade { from { opacity: 0; transform: translateY(8px); } }
+.tw { transform-box: fill-box; transform-origin: bottom; animation: rise .9s cubic-bezier(.2,.9,.3,1.2) both; }
+@keyframes rise { from { transform: scaleY(0); } }
+@media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+</style>
+<defs><linearGradient id="ac" x1="0" x2="1"><stop offset="0" stop-color="#22D3EE"/><stop offset="1" stop-color="#3B82F6"/></linearGradient></defs>
+<rect x=".5" y=".5" width="999" height="299" rx="14" fill="#0F1A2E" stroke="#1E2A44"/>
+<rect x="24" y="24" width="28" height="3" rx="1.5" fill="url(#ac)"/>
+<text x="24" y="50" font-size="16" font-weight="700" fill="#F1F5F9">Contribution skyline · last 12 months</text>
+<text x="976" y="50" text-anchor="end" font-size="12" fill="#94A3B8">28 contributions · avg 0.5/week · peak 10 (week 53)</text>
+<line x1="83.25" y1="263" x2="914.75" y2="263" stroke="#1E2A44"/>
+<g class="tw" style="animation-delay:0.000s" fill-opacity="0.51">
+<path d="M89.25 241h11v21h-11z" fill="#22D3EE"/>
+<path d="M100.25 241l5 -5v21l-5 5z" fill="#3B82F6"/>
+<path d="M89.25 241l5 -5h11l-5 5z" fill="#F1F5F9" fill-opacity=".35"/>
+</g>
+<g class="tw" style="animation-delay:0.025s" fill-opacity="1">
+<path d="M104.75 258h11v4h-11z" fill="#1E2A44"/>
+<path d="M115.75 258l5 -5v4l-5 5z" fill="#3B82F6"/>
+<path d="M104.75 258l5 -5h11l-5 5z" fill="#F1F5F9" fill-opacity=".35"/>
+</g>
+<g class="tw" style="animation-delay:0.050s" fill-opacity="1">
+<path d="M120.25 258h11v4h-11z" fill="#1E2A44"/>
+<path d="M131.25 258l5 -5v4l-5 5z" fill="#3B82F6"/>
+<path d="M120.25 258l5 -5h11l-5 5z" fill="#F1F5F9" fill-opacity=".35"/>
+</g>
+<g class="tw" style="animation-delay:0.075s" fill-opacity="1">
+<path d="M135.75 258h11v4h-11z" fill="#1E2A44"/>
+<path d="M146.75 258l5 -5v4l-5 5z" fill="#3B82F6"/>
+<path d="M135.75 258l5 -5h11l-5 5z" fill="#F1F5F9" fill-opacity=".35"/>
+</g>
+<g class="tw" style="animation-delay:0.100s" fill-opacity="1">
+<path d="M151.25 258h11v4h-11z" fill="#1E2A44"/>
+<path d="M162.25 258l5 -5v4l-5 5z" fill="#3B82F6"/>
+<path d="M151.25 258l5 -5h11l-5 5z" fill="#F1F5F9" fill-opacity=".35"/>
+</g>
+<g class="tw" style="animation-delay:0.125s" fill-opacity="0.56">
+<path d="M166.75 224h11v38h-11z" fill="#22D3EE"/>
+<path d="M177.75 224l5 -5v38l-5 5z" fill="#3B82F6"/>
+<path d="M166.75 224l5 -5h11l-5 5z" fill="#F1F5F9" fill-opacity=".35"/>
+</g>
+<g class="tw" style="animation-delay:0.150s" fill-opacity="1">
+<path d="M182.25 258h11v4h-11z" fill="#1E2A44"/>
+<path d="M193.25 258l5 -5v4l-5 5z" fill="#3B82F6"/>
+<path d="M182.25 258l5 -5h11l-5 5z" fill="#F1F5F9" fill-opacity=".35"/>
+</g>
+<g class="tw" style="animation-delay:0.175s" fill-opacity="1">
+<path d="M197.75 258h11v4h-11z" fill="#1E2A44"/>
+<path d="M208.75 258l5 -5v4l-5 5z" fill="#3B82F6"/>
+<path d="M197.75 258l5 -5h11l-5 5z" fill="#F1F5F9" fill-opacity=".35"/>
+</g>
+<g class="tw" style="animation-delay:0.200s" fill-opacity="1">
+<path d="M213.25 258h11v4h-11z" fill="#1E2A44"/>
+<path d="M224.25 258l5 -5v4l-5 5z" fill="#3B82F6"/>
+<path d="M213.25 258l5 -5h11l-5 5z" fill="#F1F5F9" fill-opacity=".35"/>
+</g>
+<g class="tw" style="animation-delay:0.225s" fill-opacity="1">
+<path d="M228.75 258h11v4h-11z" fill="#1E2A44"/>
+<path d="M239.75 258l5 -5v4l-5 5z" fill="#3B82F6"/>
+<path d="M228.75 258l5 -5h11l-5 5z" fill="#F1F5F9" fill-opacity=".35"/>
+</g>
+<g class="tw" style="animation-delay:0.250s" fill-opacity="1">
+<path d="M244.25 258h11v4h-11z" fill="#1E2A44"/>
+<path d="M255.25 258l5 -5v4l-5 5z" fill="#3B82F6"/>
+<path d="M244.25 258l5 -5h11l-5 5z" fill="#F1F5F9" fill-opacity=".35"/>
+</g>
+<g class="tw" style="animation-delay:0.275s" fill-opacity="1">
+<path d="M259.75 258h11v4h-11z" fill="#1E2A44"/>
+<path d="M270.75 258l5 -5v4l-5 5z" fill="#3B82F6"/>
+<path d="M259.75 258l5 -5h11l-5 5z" fill="#F1F5F9" fill-opacity=".35"/>
+</g>
+<g class="tw" style="animation-delay:0.300s" fill-opacity="1">
+<path d="M275.25 258h11v4h-11z" fill="#1E2A44"/>
+<path d="M286.25 258l5 -5v4l-5 5z" fill="#3B82F6"/>
+<path d="M275.25 258l5 -5h11l-5 5z" fill="#F1F5F9" fill-opacity=".35"/>
+</g>
+<g class="tw" style="animation-delay:0.325s" fill-opacity="0.51">
+<path d="M290.75 241h11v21h-11z" fill="#22D3EE"/>
+<path d="M301.75 241l5 -5v21l-5 5z" fill="#3B82F6"/>
+<path d="M290.75 241l5 -5h11l-5 5z" fill="#F1F5F9" fill-opacity=".35"/>
+</g>
+<g class="tw" style="animation-delay:0.350s" fill-opacity="1">
+<path d="M306.25 258h11v4h-11z" fill="#1E2A44"/>
+<path d="M317.25 258l5 -5v4l-5 5z" fill="#3B82F6"/>
+<path d="M306.25 258l5 -5h11l-5 5z" fill="#F1F5F9" fill-opacity=".35"/>
+</g>
+<g class="tw" style="animation-delay:0.375s" fill-opacity="1">
+<path d="M321.75 258h11v4h-11z" fill="#1E2A44"/>
+<path d="M332.75 258l5 -5v4l-5 5z" fill="#3B82F6"/>
+<path d="M321.75 258l5 -5h11l-5 5z" fill="#F1F5F9" fill-opacity=".35"/>
+</g>
+<g class="tw" style="animation-delay:0.400s" fill-opacity="1">
+<path d="M337.25 258h11v4h-11z" fill="#1E2A44"/>
+<path d="M348.25 258l5 -5v4l-5 5z" fill="#3B82F6"/>
+<path d="M337.25 258l5 -5h11l-5 5z" fill="#F1F5F9" fill-opacity=".35"/>
+</g>
+<g class="tw" style="animation-delay:0.425s" fill-opacity="1">
+<path d="M352.75 258h11v4h-11z" fill="#1E2A44"/>
+<path d="M363.75 258l5 -5v4l-5 5z" fill="#3B82F6"/>
+<path d="M352.75 258l5 -5h11l-5 5z" fill="#F1F5F9" fill-opacity=".35"/>
+</g>
+<g class="tw" style="animation-delay:0.450s" fill-opacity="1">
+<path d="M368.25 258h11v4h-11z" fill="#1E2A44"/>
+<path d="M379.25 258l5 -5v4l-5 5z" fill="#3B82F6"/>
+<path d="M368.25 258l5 -5h11l-5 5z" fill="#F1F5F9" fill-opacity=".35"/>
+</g>
+<g class="tw" style="animation-delay:0.475s" fill-opacity="1">
+<path d="M383.75 258h11v4h-11z" fill="#1E2A44"/>
+<path d="M394.75 258l5 -5v4l-5 5z" fill="#3B82F6"/>
+<path d="M383.75 258l5 -5h11l-5 5z" fill="#F1F5F9" fill-opacity=".35"/>
+</g>
+<g class="tw" style="animation-delay:0.500s" fill-opacity="1">
+<path d="M399.25 258h11v4h-11z" fill="#1E2A44"/>
+<path d="M410.25 258l5 -5v4l-5 5z" fill="#3B82F6"/>
+<path d="M399.25 258l5 -5h11l-5 5z" fill="#F1F5F9" fill-opacity=".35"/>
+</g>
+<g class="tw" style="animation-delay:0.525s" fill-opacity="1">
+<path d="M414.75 258h11v4h-11z" fill="#1E2A44"/>
+<path d="M425.75 258l5 -5v4l-5 5z" fill="#3B82F6"/>
+<path d="M414.75 258l5 -5h11l-5 5z" fill="#F1F5F9" fill-opacity=".35"/>
+</g>
+<g class="tw" style="animation-delay:0.550s" fill-opacity="1">
+<path d="M430.25 258h11v4h-11z" fill="#1E2A44"/>
+<path d="M441.25 258l5 -5v4l-5 5z" fill="#3B82F6"/>
+<path d="M430.25 258l5 -5h11l-5 5z" fill="#F1F5F9" fill-opacity=".35"/>
+</g>
+<g class="tw" style="animation-delay:0.575s" fill-opacity="1">
+<path d="M445.75 258h11v4h-11z" fill="#1E2A44"/>
+<path d="M456.75 258l5 -5v4l-5 5z" fill="#3B82F6"/>
+<path d="M445.75 258l5 -5h11l-5 5z" fill="#F1F5F9" fill-opacity=".35"/>
+</g>
+<g class="tw" style="animation-delay:0.600s" fill-opacity="1">
+<path d="M461.25 258h11v4h-11z" fill="#1E2A44"/>
+<path d="M472.25 258l5 -5v4l-5 5z" fill="#3B82F6"/>
+<path d="M461.25 258l5 -5h11l-5 5z" fill="#F1F5F9" fill-opacity=".35"/>
+</g>
+<g class="tw" style="animation-delay:0.625s" fill-opacity="1">
+<path d="M476.75 258h11v4h-11z" fill="#1E2A44"/>
+<path d="M487.75 258l5 -5v4l-5 5z" fill="#3B82F6"/>
+<path d="M476.75 258l5 -5h11l-5 5z" fill="#F1F5F9" fill-opacity=".35"/>
+</g>
+<g class="tw" style="animation-delay:0.650s" fill-opacity="1">
+<path d="M492.25 258h11v4h-11z" fill="#1E2A44"/>
+<path d="M503.25 258l5 -5v4l-5 5z" fill="#3B82F6"/>
+<path d="M492.25 258l5 -5h11l-5 5z" fill="#F1F5F9" fill-opacity=".35"/>
+</g>
+<g class="tw" style="animation-delay:0.675s" fill-opacity="1">
+<path d="M507.75 258h11v4h-11z" fill="#1E2A44"/>
+<path d="M518.75 258l5 -5v4l-5 5z" fill="#3B82F6"/>
+<path d="M507.75 258l5 -5h11l-5 5z" fill="#F1F5F9" fill-opacity=".35"/>
+</g>
+<g class="tw" style="animation-delay:0.700s" fill-opacity="1">
+<path d="M523.25 258h11v4h-11z" fill="#1E2A44"/>
+<path d="M534.25 258l5 -5v4l-5 5z" fill="#3B82F6"/>
+<path d="M523.25 258l5 -5h11l-5 5z" fill="#F1F5F9" fill-opacity=".35"/>
+</g>
+<g class="tw" style="animation-delay:0.725s" fill-opacity="1">
+<path d="M538.75 258h11v4h-11z" fill="#1E2A44"/>
+<path d="M549.75 258l5 -5v4l-5 5z" fill="#3B82F6"/>
+<path d="M538.75 258l5 -5h11l-5 5z" fill="#F1F5F9" fill-opacity=".35"/>
+</g>
+<g class="tw" style="animation-delay:0.750s" fill-opacity="1">
+<path d="M554.25 258h11v4h-11z" fill="#1E2A44"/>
+<path d="M565.25 258l5 -5v4l-5 5z" fill="#3B82F6"/>
+<path d="M554.25 258l5 -5h11l-5 5z" fill="#F1F5F9" fill-opacity=".35"/>
+</g>
+<g class="tw" style="animation-delay:0.775s" fill-opacity="1">
+<path d="M569.75 258h11v4h-11z" fill="#1E2A44"/>
+<path d="M580.75 258l5 -5v4l-5 5z" fill="#3B82F6"/>
+<path d="M569.75 258l5 -5h11l-5 5z" fill="#F1F5F9" fill-opacity=".35"/>
+</g>
+<g class="tw" style="animation-delay:0.800s" fill-opacity="0.51">
+<path d="M585.25 241h11v21h-11z" fill="#22D3EE"/>
+<path d="M596.25 241l5 -5v21l-5 5z" fill="#3B82F6"/>
+<path d="M585.25 241l5 -5h11l-5 5z" fill="#F1F5F9" fill-opacity=".35"/>
+</g>
+<g class="tw" style="animation-delay:0.825s" fill-opacity="1">
+<path d="M600.75 258h11v4h-11z" fill="#1E2A44"/>
+<path d="M611.75 258l5 -5v4l-5 5z" fill="#3B82F6"/>
+<path d="M600.75 258l5 -5h11l-5 5z" fill="#F1F5F9" fill-opacity=".35"/>
+</g>
+<g class="tw" style="animation-delay:0.850s" fill-opacity="1">
+<path d="M616.25 258h11v4h-11z" fill="#1E2A44"/>
+<path d="M627.25 258l5 -5v4l-5 5z" fill="#3B82F6"/>
+<path d="M616.25 258l5 -5h11l-5 5z" fill="#F1F5F9" fill-opacity=".35"/>
+</g>
+<g class="tw" style="animation-delay:0.875s" fill-opacity="1">
+<path d="M631.75 258h11v4h-11z" fill="#1E2A44"/>
+<path d="M642.75 258l5 -5v4l-5 5z" fill="#3B82F6"/>
+<path d="M631.75 258l5 -5h11l-5 5z" fill="#F1F5F9" fill-opacity=".35"/>
+</g>
+<g class="tw" style="animation-delay:0.900s" fill-opacity="1">
+<path d="M647.25 258h11v4h-11z" fill="#1E2A44"/>
+<path d="M658.25 258l5 -5v4l-5 5z" fill="#3B82F6"/>
+<path d="M647.25 258l5 -5h11l-5 5z" fill="#F1F5F9" fill-opacity=".35"/>
+</g>
+<g class="tw" style="animation-delay:0.925s" fill-opacity="1">
+<path d="M662.75 258h11v4h-11z" fill="#1E2A44"/>
+<path d="M673.75 258l5 -5v4l-5 5z" fill="#3B82F6"/>
+<path d="M662.75 258l5 -5h11l-5 5z" fill="#F1F5F9" fill-opacity=".35"/>
+</g>
+<g class="tw" style="animation-delay:0.950s" fill-opacity="1">
+<path d="M678.25 258h11v4h-11z" fill="#1E2A44"/>
+<path d="M689.25 258l5 -5v4l-5 5z" fill="#3B82F6"/>
+<path d="M678.25 258l5 -5h11l-5 5z" fill="#F1F5F9" fill-opacity=".35"/>
+</g>
+<g class="tw" style="animation-delay:0.975s" fill-opacity="1">
+<path d="M693.75 258h11v4h-11z" fill="#1E2A44"/>
+<path d="M704.75 258l5 -5v4l-5 5z" fill="#3B82F6"/>
+<path d="M693.75 258l5 -5h11l-5 5z" fill="#F1F5F9" fill-opacity=".35"/>
+</g>
+<g class="tw" style="animation-delay:1.000s" fill-opacity="1">
+<path d="M709.25 258h11v4h-11z" fill="#1E2A44"/>
+<path d="M720.25 258l5 -5v4l-5 5z" fill="#3B82F6"/>
+<path d="M709.25 258l5 -5h11l-5 5z" fill="#F1F5F9" fill-opacity=".35"/>
+</g>
+<g class="tw" style="animation-delay:1.025s" fill-opacity="1">
+<path d="M724.75 258h11v4h-11z" fill="#1E2A44"/>
+<path d="M735.75 258l5 -5v4l-5 5z" fill="#3B82F6"/>
+<path d="M724.75 258l5 -5h11l-5 5z" fill="#F1F5F9" fill-opacity=".35"/>
+</g>
+<g class="tw" style="animation-delay:1.050s" fill-opacity="1">
+<path d="M740.25 258h11v4h-11z" fill="#1E2A44"/>
+<path d="M751.25 258l5 -5v4l-5 5z" fill="#3B82F6"/>
+<path d="M740.25 258l5 -5h11l-5 5z" fill="#F1F5F9" fill-opacity=".35"/>
+</g>
+<g class="tw" style="animation-delay:1.075s" fill-opacity="1">
+<path d="M755.75 258h11v4h-11z" fill="#1E2A44"/>
+<path d="M766.75 258l5 -5v4l-5 5z" fill="#3B82F6"/>
+<path d="M755.75 258l5 -5h11l-5 5z" fill="#F1F5F9" fill-opacity=".35"/>
+</g>
+<g class="tw" style="animation-delay:1.100s" fill-opacity="1">
+<path d="M771.25 258h11v4h-11z" fill="#1E2A44"/>
+<path d="M782.25 258l5 -5v4l-5 5z" fill="#3B82F6"/>
+<path d="M771.25 258l5 -5h11l-5 5z" fill="#F1F5F9" fill-opacity=".35"/>
+</g>
+<g class="tw" style="animation-delay:1.125s" fill-opacity="1">
+<path d="M786.75 258h11v4h-11z" fill="#1E2A44"/>
+<path d="M797.75 258l5 -5v4l-5 5z" fill="#3B82F6"/>
+<path d="M786.75 258l5 -5h11l-5 5z" fill="#F1F5F9" fill-opacity=".35"/>
+</g>
+<g class="tw" style="animation-delay:1.150s" fill-opacity="1">
+<path d="M802.25 258h11v4h-11z" fill="#1E2A44"/>
+<path d="M813.25 258l5 -5v4l-5 5z" fill="#3B82F6"/>
+<path d="M802.25 258l5 -5h11l-5 5z" fill="#F1F5F9" fill-opacity=".35"/>
+</g>
+<g class="tw" style="animation-delay:1.175s" fill-opacity="1">
+<path d="M817.75 258h11v4h-11z" fill="#1E2A44"/>
+<path d="M828.75 258l5 -5v4l-5 5z" fill="#3B82F6"/>
+<path d="M817.75 258l5 -5h11l-5 5z" fill="#F1F5F9" fill-opacity=".35"/>
+</g>
+<g class="tw" style="animation-delay:1.200s" fill-opacity="1">
+<path d="M833.25 258h11v4h-11z" fill="#1E2A44"/>
+<path d="M844.25 258l5 -5v4l-5 5z" fill="#3B82F6"/>
+<path d="M833.25 258l5 -5h11l-5 5z" fill="#F1F5F9" fill-opacity=".35"/>
+</g>
+<g class="tw" style="animation-delay:1.225s" fill-opacity="0.95">
+<path d="M848.75 105h11v157h-11z" fill="#34D399"/>
+<path d="M859.75 105l5 -5v157l-5 5z" fill="#3B82F6"/>
+<path d="M848.75 105l5 -5h11l-5 5z" fill="#F1F5F9" fill-opacity=".35"/>
+</g>
+<g class="tw" style="animation-delay:1.250s" fill-opacity="0.67">
+<path d="M864.25 190h11v72h-11z" fill="#34D399"/>
+<path d="M875.25 190l5 -5v72l-5 5z" fill="#3B82F6"/>
+<path d="M864.25 190l5 -5h11l-5 5z" fill="#F1F5F9" fill-opacity=".35"/>
+</g>
+<g class="tw" style="animation-delay:1.275s" fill-opacity="1">
+<path d="M879.75 258h11v4h-11z" fill="#1E2A44"/>
+<path d="M890.75 258l5 -5v4l-5 5z" fill="#3B82F6"/>
+<path d="M879.75 258l5 -5h11l-5 5z" fill="#F1F5F9" fill-opacity=".35"/>
+</g>
+<g class="tw" style="animation-delay:1.300s" fill-opacity="1.00">
+<path d="M895.25 88h11v174h-11z" fill="#34D399"/>
+<path d="M906.25 88l5 -5v174l-5 5z" fill="#3B82F6"/>
+<path d="M895.25 88l5 -5h11l-5 5z" fill="#F1F5F9" fill-opacity=".35"/>
+</g>
+<text x="89.25" y="286" font-size="11" fill="#475569">2025-10-26</text>
+<text x="910.75" y="286" text-anchor="end" font-size="11" fill="#475569">2026-10-31</text>
+</svg>

@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="495" height="210" viewBox="0 0 495 210" role="img" aria-labelledby="t d">
+<title id="t">Most used languages</title>
+<desc id="d">Jupyter Notebook 80.7%, TypeScript 15.3%, JavaScript 2.2%, Python 0.9%, HTML 0.5%, PLpgSQL 0.5%</desc>
+<style>
+text { font-family: 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; }
+.fade { animation: fade .7s ease both; }
+@keyframes fade { from { opacity: 0; transform: translateY(8px); } }
+.seg { transform-box: fill-box; transform-origin: left; animation: grow .8s cubic-bezier(.2,.8,.2,1) both; }
+@keyframes grow { from { transform: scaleX(0); } }
+@media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+</style>
+<defs><linearGradient id="ac" x1="0" x2="1"><stop offset="0" stop-color="#0891B2"/><stop offset="1" stop-color="#2563EB"/></linearGradient></defs>
+<rect x=".5" y=".5" width="494" height="209" rx="14" fill="#FFFFFF" stroke="#D9E2EC"/>
+<rect x="24" y="24" width="28" height="3" rx="1.5" fill="url(#ac)"/>
+<text x="24" y="50" font-size="16" font-weight="700" fill="#0F172A">Most used languages</text>
+<clipPath id="bar"><rect x="24" y="70" width="447" height="12" rx="6"/></clipPath>
+<rect x="24" y="70" width="447" height="12" rx="6" fill="#E2E8F0"/>
+<g clip-path="url(#bar)"><rect class="seg" style="animation-delay:0.15s" x="24.0" y="70" width="358.7" height="12" fill="#DA5B0B"/><rect class="seg" style="animation-delay:0.27s" x="384.7" y="70" width="66.3" height="12" fill="#3178c6"/><rect class="seg" style="animation-delay:0.39s" x="453.0" y="70" width="7.7" height="12" fill="#f1e05a"/><rect class="seg" style="animation-delay:0.51s" x="462.7" y="70" width="1.9" height="12" fill="#3572A5"/><rect class="seg" style="animation-delay:0.63s" x="466.7" y="70" width="1.0" height="12" fill="#e34c26"/><rect class="seg" style="animation-delay:0.75s" x="468.8" y="70" width="1.0" height="12" fill="#336790"/></g>
+<g class="fade" style="animation-delay:0.50s"><circle cx="29" cy="114" r="5" fill="#DA5B0B"/><text x="42" y="118" font-size="13" fill="#0F172A">Jupyter Notebook <tspan fill="#475569">80.7%</tspan></text></g>
+<g class="fade" style="animation-delay:0.58s"><circle cx="265" cy="114" r="5" fill="#3178c6"/><text x="278" y="118" font-size="13" fill="#0F172A">TypeScript <tspan fill="#475569">15.3%</tspan></text></g>
+<g class="fade" style="animation-delay:0.66s"><circle cx="29" cy="142" r="5" fill="#f1e05a"/><text x="42" y="146" font-size="13" fill="#0F172A">JavaScript <tspan fill="#475569">2.2%</tspan></text></g>
+<g class="fade" style="animation-delay:0.74s"><circle cx="265" cy="142" r="5" fill="#3572A5"/><text x="278" y="146" font-size="13" fill="#0F172A">Python <tspan fill="#475569">0.9%</tspan></text></g>
+<g class="fade" style="animation-delay:0.82s"><circle cx="29" cy="170" r="5" fill="#e34c26"/><text x="42" y="174" font-size="13" fill="#0F172A">HTML <tspan fill="#475569">0.5%</tspan></text></g>
+<g class="fade" style="animation-delay:0.90s"><circle cx="265" cy="170" r="5" fill="#336790"/><text x="278" y="174" font-size="13" fill="#0F172A">PLpgSQL <tspan fill="#475569">0.5%</tspan></text></g>
+</svg>
